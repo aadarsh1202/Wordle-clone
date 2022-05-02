@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# WORDLE-CLONE  :fa-comments: 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#####  “Wordle” is a vocabulary game in which players get six tries to deduce a word.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
+### HOW TO PLAY THE GAME:
+- DOWNLOAD THE FILE OR CLONE THE REPOSITORY
+- cd TO THIS DIRECTORY
+- ENTER THE COMMANDS
+   -  ### `npm install`
+   - ### `npm start`
+   Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### STEPS AND RULES TO PLAY THE GAME:
+![Wordle](https://user-images.githubusercontent.com/55631782/166195529-348a84e6-6129-48d8-b187-ab157301d24c.png)
 
-### `npm test`
+- ENTER A VALID FIVE-LETTER WORD.
+- IF THE WORD IS NOT VALID IT WILL RETURN AN ALERT MESSAGE.UNLESS THE GUESSED WORD IS VALID THE GAME WONT MOVE FORWARD.
+- ON GUESSING THE VALID WORD THERE ARE THREE POSSIBILITIES BASED ON LETTER ARRANGEMENT-
+|  COLOR  |  MEANING |
+| ------------ | ------------ |
+| ![#12AD2B](https://via.placeholder.com/15/12AD2B/000000?text=+)   | LETTER IS PRESENT IN THE WORD AND IS  PLACED AT THE CORRECT POSITION  |
+| ![#E2F516](https://via.placeholder.com/15/E2F516/000000?text=+)  | LETTER IS PRESENT IN THE WORD BUT IS NOT NOT PRESENT IN THE CORRECT POSITION   |
+|  ![#49413F](https://via.placeholder.com/15/49413F/000000?text=+) |  LETTER IS NOT PRESENT IN THE WORD |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- MAXIMUM OF 6 ATTEMPTS.AT THE END OF THE GAME IF THE PLAYER IS UNABLE TO GUESS THE  WORD,THEN THE ANSWER WILL BE REVEALED AT THE SCREEN.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ENJOY PLAYING!!!!!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
